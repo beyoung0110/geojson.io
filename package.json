@@ -49,7 +49,7 @@
     "tape": "~2.12.3"
   },
   "scripts": {
-    "start": "serve -g 80",
+    "start": "serve -p 80",
     "test": "eslint src",
     "test-browser": "browserify test/index.js | testling"
   },
